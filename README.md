@@ -22,22 +22,25 @@ To get into the conclusions I head to exclude a bunch of attacks:
 #### 3.1 Males and Females:
 
 
-Some of the line we had group attacks, where the sexes of the victims were not mentioned, I excluded those cases.
+Inside the data set some of the rows represented group attacks where the genders of the victims were not mentioned, we excluded those rows.
 
-If it were a group but we knew the sexes I duplicated the lines so that we would have on for each victim.
+If it represented an attack we knew how many the victims were and their  genders, we duplicated the lines for how many the victimns were.
 
 
 #### 3.2 Males and Females:
 
-We excluded all those cases where we could not assume the age of the person. We had a bunch of line were, instead of a number we had (teen, adult, middle aged, etc.)
+We excluded all those cases where we could not assume the age of the person. We had many rows where, instead of a number we had (teen, adult, middle aged, etc.)
 
-If the ages were for example, 60’s 50’s etc. I assigned the number plus five.
+If we had (60's, 50's, 30's, ...) we assumed it was (65, 55,35,...)
 
-If it was between a certain age, we attributed the average between those two.
+If it was between a certain age, we attributed the average between those two. (ex: 24 or 26, we would assume it was 25).
 
 #### 3.2 Fatality:
 
-If we could not conclude if the person died, or if the attack was actually one we excluded those cases. 
+we excluded thoses cases where we could not conclude if the person died.
+
+We also excluded the cases where the actual attack had appened.
+
 
 ## 4. Conclusions:
 
